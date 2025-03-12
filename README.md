@@ -1,12 +1,64 @@
-# React + Vite
+To-Do List ✅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una sencilla aplicación de lista de tareas creada con React y Tailwind CSS. Permite agregar, marcar como completadas y eliminar tareas de manera intuitiva. Además, las tareas se guardan en localStorage, por lo que no se pierden al recargar la página. 🚀
 
-Currently, two official plugins are available:
+📸 Vista previa
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+(Captura de pantalla de la aplicación, puedes subir una imagen real de tu app)
 
-## Expanding the ESLint configuration
+🚀 Características
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📌 Agregar nuevas tareas.
+
+✅ Marcar tareas como completadas.
+
+❌ Eliminar tareas.
+
+💾 Persistencia de datos con localStorage.
+
+🎨 Diseño moderno con Tailwind CSS.
+
+🛠️ Tecnologías utilizadas
+
+React (Vite)
+
+Tailwind CSS
+
+LocalStorage para persistencia de datos
+
+📦 Instalación y uso
+
+Clonar el repositorio:
+
+git clone https://github.com/tuusuario/todo-list-react.git
+cd todo-list-react
+
+Instalar dependencias:
+
+npm install
+
+Iniciar la aplicación:
+
+npm run dev
+
+Abrir en el navegador:La app estará disponible en http://localhost:5173 (o el puerto que asigne Vite)
+
+📂 Estructura del proyecto
+
+📦 src
+ ┣ 📂 components
+ ┃ ┣ 📜 FormToDo.jsx   # Formulario para agregar tareas
+ ┃ ┣ 📜 ListToDo.jsx   # Lista de tareas
+ ┃ ┣ 📜 Check.jsx      # Botón para marcar como completada
+ ┃ ┣ 📜 Remove.jsx     # Botón para eliminar tareas
+ ┃ ┗ 📜 ToDo.jsx       # Componente principal que gestiona el estado
+ ┣ 📜 App.jsx          # Punto de entrada principal
+ ┣ 📜 main.jsx         # Renderiza la aplicación en el DOM
+
+📌 Contribución
+
+Si deseas mejorar esta aplicación, siéntete libre de hacer un fork y enviar un pull request. 😊
+
+📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente. 🎉
