@@ -59,6 +59,3 @@ Abrir en el navegador:La app estará disponible en http://localhost:5173 (o el p
 
 Si deseas mejorar esta aplicación, siéntete libre de hacer un fork y enviar un pull request. 😊
 
-📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente. 🎉
